@@ -5,7 +5,8 @@ module Milia
 
   class ConfirmationsController < Devise::ConfirmationsController
 
-    skip_before_action :authenticate_tenant! 
+    #emulate rails 4 behavior
+    skip_before_action :authenticate_tenant!, raise: false
     before_action      :set_confirmable, :only => [ :update, :show ]
 
 
