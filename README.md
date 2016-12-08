@@ -1,3 +1,6 @@
+**updated to work with rails 5, similar to issue here https://github.com/lynndylanhurley/devise_token_auth/issues/500
+
+
 # milia
 
 Milia is a multi-tenanting gem for hosted Rails 4.2.x applications which use
